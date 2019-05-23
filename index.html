@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <LINK REL="stylesheet" TYPE="text/css" HREF="style.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Kodchasan&display=swap" rel="stylesheet">
+    <script src="formulas.js" langiage="javascript" type="text/javascript"></script>
+    <title>Contabilidad</title>
+    <head>
+    </head>
+    <body>
+            <div class="BarraS">
+            <header></header>
+            <input type="checkbox" id="check">
+            <label for="check" class="">Menu</label>
+            <h1>Contabilidad</h1>
+            
+            <nav class="menu">
+                <ul>
+                    <li><a href="teoria.html">Teoría</a></li>
+                    <li><a href="index.html">Fórmulas</a></li>
+                    <li><a href="pyc.html">Políticas y condiciones</a></li>
+                    
+                    <li><a href="#">Idioma</a>
+                        <ul>
+                            <li><a href="index.html">Español</a></li>
+                            <li><a href="home.html">Ingles</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            </div>
+        <br><br>
+        <div id="cuadrosformulas">
+            <h1>Costo primo</h1>
+            Materia prima directa<br><input type="text" id="numMPD" placeholder=""><br>
+            Mano de obra directa<br><input type="text" id="numMDOD" placeholder=""><br>
+            Resultado/Costo primo<br><input type="text" readonly id="numCostoPrimo" placeholder=""><br><br>
+            <a href="#" class="buttons" onclick="op1()">Resolver</a><br>
+        </div>
+        <div id="cuadrosformulas">
+            <h1>Costo producción</h1>
+            Costo primo<br><input type="text" id="numCostoPrimo1" placeholder=""><br>
+            Gastos generales de fabricación directos<br><input type="text" id="GGDFD" placeholder=""><br>
+            Costos directos<br><input type="text" id="numCD" placeholder=""><br>
+            Resultado/Costo producción<br><input type="text" readonly id="numCDP" placeholder=""><br><br>
+            <a href="#" class="buttons" onclick="op2()">Resolver</a>
+        </div>  
+        <div id="cuadrosformulas">
+            <h1>Costos indirectos</h1>
+            Materia prima indirecta<br><input type="text" id="numMPI" placeholder=""><br>
+            Mano de obra indirecta<br><input type="text" id="numMDOI" placeholder=""><br>
+            Gastos generales de fabricación indirecta<br><input type="text" id="numGGDFI" placeholder=""><br>
+            Resultado/Costos indirectos<br><input type="text" readonly id="numCI" placeholder=""><br><br>
+            <a href="#" class="buttons" onclick="op3()">Resolver</a>
+        </div>
+        <div id="cuadrosformulas">
+            <h1>Costo de distribución</h1>
+            Gastos de venta<br><input type="text" id="numGDV" placeholder=""><br>
+            Gastos de administración<br><input type="text" id="numGDA" placeholder=""><br>
+            Resultado/Costo de distribución<br><input type="text" readonly id="numCDD" placeholder=""><br><br>
+            <a href="#" class="buttons" onclick="op4()">Resolver</a>
+        </div>
+        <div id="cuadrosformulas">
+            <h1>Costo total de operación</h1>
+            Costo de producción<br><input type="text" id="numCDP1" placeholder=""><br>
+            Costo de distribución<br><input type="text" id="numCDD1" placeholder=""><br>
+            Resultado/Costo total de operación<br><input type="text" readonly id="numCTDO" placeholder=""><br><br>
+            <a href="#" class="buttons" onclick="op5()">Resolver</a>
+        </div>
+        <div id="cuadrosformulas">
+            <h1>Costo unitario de producto</h1>
+            Costo de producción<br><input type="text" id="numCDP2" placeholder=""><br>
+            Unidades producidas<br><input type="text" id="numUP" placeholder=""><br>
+            Resultado/Costo unitario de producto<br><input type="text" readonly id="numCUDP" placeholder=""><br><br>
+            <a href="#" class="buttons" onclick="op6()">Resolver</a>
+        </div>
+    </body>
+</html>
