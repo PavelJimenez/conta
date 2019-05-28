@@ -3,9 +3,9 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Kodchasan', sans-serif;
-    background-image:url(Fondo.jpg);
+    background-image:url(fondo1.jpg);
     background-size:100% 100%;
-    background-repeat:;
+    background-repeat:no-repeat;
     background-attachment:fixed;
     color:white;
 }
@@ -174,4 +174,8 @@ header{
 h1{
     font-weight: 100;
     margin-bottom: 30px;
+}
+.inputs {
+    background:white;
+    color:black;
 }
