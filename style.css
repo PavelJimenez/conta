@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Kodchasan', sans-serif;
-    background-image:url(fondo1.jpg);
+    background-image:url(Fondo.jpg);
     background-size:100% 100%;
     background-repeat:no-repeat;
     background-attachment:fixed;
@@ -72,27 +72,29 @@ header{
 .menu li:hover{
     background: #25528E;
 }
-.menu li:hover a{
+.menu li:hover .aa{
     background:#25528E; 
 }
 .menu li1:hover{
     background: #25528E;
 }
-.menu li1:hover a{
-    background:#25528E; 
-}
 .menu .label:hover{
     background: #25528E;
 }
-.menu li1:hover a1{
+.menu li1:hover .a1{
     background: #25528E;
 }
-.menu li a{
+.aa{
     color:white;
     background:#25525E;
     text-decoration:none;
 }
-.menu li a1{
+.all{
+    color:white;
+    background:#25525E;
+    text-decoration:none;
+}
+.a1{
     color:white;
     background:#25525E;
     text-decoration:none;
@@ -108,7 +110,7 @@ header{
     text-align:left;
 }
 
-.BarraS h1{
+.BarraS h2{
     position: fixed;
     width: 100%;
     background:#25525E;
@@ -119,28 +121,37 @@ header{
 }
 
 #cuadrosformulas{
-    width:;
-    height:;
+    background:#25525E;
+    width:400px;
+    height:auto;
     text-align:center;
-    border:solid 0px black;
-    font-size:20px;
+    font-size:18px;
     color:white;
     margin-bottom:20px;
+    margin:auto;
+    font-family: 'Kodchasan', sans-serif;
+    border:5px white;
 }   
 .divteoria{
+    background:#25525E;
     width:70%;
     height:auto;
     color:white;
     margin:auto;
     padding-bottom:30px;
     text-align:justify;
+    padding:20px;
+    border:5px white;
 }
 .divpc{
+    background:#25525E;
     margin:auto;
     width:70%;
     height:auto;
     font-size:20px;
     text-align:justify;
+    padding:20px;
+    border:5px white;
 }
 #Titulo{
     color:#fff;
@@ -173,7 +184,13 @@ header{
 
 h1{
     font-weight: 100;
+    margin-bottom: 18px;
+    background:#25525E;
+}
+h2{
+    font-weight: 100;
     margin-bottom: 30px;
+    background:#25525E;
 }
 .inputs {
     background:white;

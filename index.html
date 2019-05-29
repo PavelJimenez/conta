@@ -13,65 +13,61 @@
             <header></header>
             <input type="checkbox" id="check">
             <label for="check" class="">Menu</label>
-            <h1>Contabilidad</h1>
+            <h2>Contabilidad</h2>
             
             <nav class="menu">
                 <ul>
-                    <li><a href="teoria.html">Teoría</a></li>
-                    <li><a href="index.html">Fórmulas</a></li>
-                    <li><a href="pyc.html">Políticas y condiciones</a></li>
+                    <li><a class="aa" href="teoria.html">Teoría</a></li>
+                    <li><a class="aa" href="index.html">Fórmulas</a></li>
+                    <li><a class="aa" href="pyc.html">Políticas y condiciones</a></li>
                     
-                    <li><a href="#">Idioma</a>
+                    <li><a class="aa" href="#">Idioma</a>
                         <ul>
-                            <li1><a1 href="index.html">Español</a1></li1>
-                            <li1><a1 href="home.html">Ingles</a1></li1>
+                            <li1><a class="a1" href="index.html">Español</a></li1>
+                            <li1><a class="a1" href="home.html">Ingles</a></li1>
                         </ul>
                     </li>
                 </ul>
             </nav>
             </div>
         <br><br>
+        
         <div id="cuadrosformulas">
              <h1>Costo primo</h1>
-            Materia prima directa<br><input class="inputs"  type="text" id="numMPD" placeholder=""><br>
-            Mano de obra directa<br><input class="inputs" type="text" id="numMDOD" placeholder=""><br>
+            Materia prima directa<br><input class="inputs"  type="number" id="numMPD" placeholder=""><br>
+            Mano de obra directa<br><input class="inputs" type="number" id="numMDOD" placeholder=""><br>
             Resultado/Costo primo<br><input class="inputs" type="text" readonly id="numCostoPrimo" placeholder=""><br><br>
             <a href="#" class="buttons" onclick="op1()">Resolver</a><br>
-        </div>
-        <div id="cuadrosformulas">
+       
             <h1>Costo producción</h1>
-            Costo primo<br><input class="inputs" type="text" id="numCostoPrimo1" placeholder=""><br>
-            Gastos generales de fabricación directos<br><input class="inputs" type="text" id="GGDFD" placeholder=""><br>
-            Costos directos<br><input class="inputs" type="text" id="numCD" placeholder=""><br>
+            Costo primo<br><input class="inputs" type="number" id="numCostoPrimo1" placeholder=""><br>
+            Gastos generales de fabricación directos<br><input class="inputs" type="number" id="GGDFD" placeholder=""><br>
+            Costos directos<br><input class="inputs" type="number" id="numCD" placeholder=""><br>
             Resultado/Costo producción<br><input class="inputs" type="text" readonly id="numCDP" placeholder=""><br><br>
             <a href="#" class="buttons" onclick="op2()">Resolver</a>
-        </div>  
-        <div id="cuadrosformulas">
+       
             <h1>Costos indirectos</h1>
-            Materia prima indirecta<br><input class="inputs" type="text" id="numMPI" placeholder=""><br>
-            Mano de obra indirecta<br><input class="inputs" type="text" id="numMDOI" placeholder=""><br>
-            Gastos generales de fabricación indirecta<br><input class="inputs" type="text" id="numGGDFI" placeholder=""><br>
+            Materia prima indirecta<br><input class="inputs" type="number" id="numMPI" placeholder=""><br>
+            Mano de obra indirecta<br><input class="inputs" type="number" id="numMDOI" placeholder=""><br>
+            Gastos generales de fabricación indirecta<br><input class="inputs" type="number" id="numGGDFI" placeholder=""><br>
             Resultado/Costos indirectos<br><input class="inputs" type="text" readonly id="numCI" placeholder=""><br><br>
             <a href="#" class="buttons" onclick="op3()">Resolver</a>
-        </div>
-        <div id="cuadrosformulas">
+        
             <h1>Costo de distribución</h1>
-            Gastos de venta<br><input class="inputs" type="text" id="numGDV" placeholder=""><br>
-            Gastos de administración<br><input class="inputs" type="text" id="numGDA" placeholder=""><br>
+            Gastos de venta<br><input class="inputs" type="number" id="numGDV" placeholder=""><br>
+            Gastos de administración<br><input class="inputs" type="number" id="numGDA" placeholder=""><br>
             Resultado/Costo de distribución<br><input class="inputs" type="text" readonly id="numCDD" placeholder=""><br><br>
             <a href="#" class="buttons" onclick="op4()">Resolver</a>
-        </div>
-        <div id="cuadrosformulas">
+      
             <h1>Costo total de operación</h1>
-            Costo de producción<br><input class="inputs" type="text" id="numCDP1" placeholder=""><br>
-            Costo de distribución<br><input class="inputs" type="text" id="numCDD1" placeholder=""><br>
+            Costo de producción<br><input class="inputs" type="number" id="numCDP1" placeholder=""><br>
+            Costo de distribución<br><input class="inputs" type="number" id="numCDD1" placeholder=""><br>
             Resultado/Costo total de operación<br><input class="inputs" type="text" readonly id="numCTDO" placeholder=""><br><br>
             <a href="#" class="buttons" onclick="op5()">Resolver</a>
-        </div>
-        <div id="cuadrosformulas">
+        
             <h1>Costo unitario de producto</h1>
-            Costo de producción<br><input class="inputs" type="text" id="numCDP2" placeholder=""><br>
-            Unidades producidas<br><input class="inputs" type="text" id="numUP" placeholder=""><br>
+            Costo de producción<br><input class="inputs" type="number" id="numCDP2" placeholder=""><br>
+            Unidades producidas<br><input class="inputs" type="number" id="numUP" placeholder=""><br>
             Resultado/Costo unitario de producto<br><input class="inputs" type="text" readonly id="numCUDP" placeholder=""><br><br>
             <a href="#" class="buttons" onclick="op6()">Resolver</a>
         </div>
